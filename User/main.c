@@ -17,7 +17,6 @@ int main(void)
 	uint8_t i;
 	for (i = 0; i < 15; i++)
 	{
-		i = 4;
 		OLED_ShowKun(i);
 		Delay_ms(41);
 	}
